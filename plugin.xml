@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+	<class>org.jivesoftware.wildfire.plugin.VCardExtendedPresencePlugin</class>
+	<name>${vcardextpres.name}</name>
+	<description>${vcardextpres.description}</description>
+    <author>Remko Tron&#231;on</author>
+	<version>0.1</version>
+	<date>7/13/2006</date>
+	<minServerVersion>3.0.1</minServerVersion>
+    
+    <adminconsole>
+        <tab id="tab-server">
+            <sidebar id="sidebar-server-settings">
+				<item id="vcardextpres" name="${vcardextpres.name}" url="vcardextpres.jsp" description="${vcardextpres.sidebar.instructions}" />
+            </sidebar>
+        </tab>
+    </adminconsole>
+</plugin>
